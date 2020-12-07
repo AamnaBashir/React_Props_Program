@@ -6,11 +6,10 @@ function Counter(){
          <h1>Number of Items in cart:{count}</h1>
          <button onClick={
              () => setCount(count+1)
-         }>Add Items</button>
+         }>Add Item</button>
          <br />
          <button onClick={
-             () => setCount(count-1)
-         }>Subtract Items</button>
+             () => {count >=0 ? setCount(count-1) :''}}>Sub Item</button>
      </div>
    );
 }
