@@ -5,7 +5,7 @@ function Counter(){
      <div>
          <h1>Number of Items in cart:{count}</h1>
          <button onClick={
-             () => setCount(count++)
+             () => setCount(count+1)
          }>Add Items</button>
      </div>
    );
