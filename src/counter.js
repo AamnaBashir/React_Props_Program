@@ -7,6 +7,10 @@ function Counter(){
          <button onClick={
              () => setCount(count+1)
          }>Add Items</button>
+         <br />
+         <button onClick={
+             () => setCount(count-1)
+         }>Subtract Items</button>
      </div>
    );
 }
