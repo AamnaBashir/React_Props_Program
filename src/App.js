@@ -4,6 +4,7 @@ import City from './city';
 import Weather from './weather';
 import Counter from './counter';
 import Time from './time';
+
 function App() {
   return (
     <div className="App">
@@ -12,8 +13,8 @@ function App() {
        <Weather tempNow="17 degrees" tempNew="16 degrees" />
        <hr />
        <Counter />
-       <hr />
-       <Time />
+      <hr />
+      <Time />
     </div>
   );
 }
